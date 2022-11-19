@@ -1,15 +1,14 @@
-<div style="display:flex;flex-direction:column;align-items:center">
-    <img style="width:128px" src="./../icons/nodejs-icon.png" alt="" />
-    <h1>Get Started a NodeJS Project</h1>
-    <p>Get Started a NodeJS Project with Yarn, Typescript, EditorConfig, Eslint and Prettier</p>
-    <div style="display:flex;align-items:center">
-        <img style="width:96px;margin: 0 8px" src="./../icons/yarn-icon.png" alt="" />
-        <img style="width:96px;margin: 0 8px" src="./../icons/ts-icon.png" alt="" />
-        <img style="width:140px;margin: 0 -18px" src="./../icons/editorconfig-icon.png" alt="" />
-        <img style="width:110px;margin: 0 8px" src="./../icons/eslint-icon.png" alt="" />
-        <img style="width:120px;margin: 0 -8px" src="./../icons/prettier-icon.png" alt="" />
-    </div>
-</div>
+<img src="./../icons/NodeJS.png" alt="" />
+
+# Get Started a NodeJS Project
+
+Get Started a NodeJS Project with Yarn, Typescript, EditorConfig, Eslint and Prettier
+
+<img width="64px" style="margin-right: 4px" src="./../icons/Yarn.png" alt="" />
+<img width="64px" style="margin: 0 4px" src="./../icons/Typescript.png" alt="" />
+<img width="64px" style="margin: 0 4px" src="./../icons/EditorConfig.png" alt="" />
+<img width="76px" style="margin: 0 4px" src="./../icons/EsLint.png" alt="" />
+<img width="64px" style="margin-left: 4px" src="./../icons/Prettier.png" alt="" />
 
 <br/>
 
@@ -67,13 +66,11 @@ Create scripts in _package.json_ file...
 
 ```json
 {
-  // ...
   "scripts": {
     "dev": "ts-node-dev --transpile-only --ignore-watch node_modules src/index.ts",
     "build": "tsc",
     "start": "node build/index.js"
   }
-  // ...
 }
 ```
 
@@ -185,7 +182,6 @@ Use CTRL+SHIFT+P and open JSON VSCode Settings and set the format configuration 
 
 ```json
 {
-  // ...
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true
 }
@@ -195,11 +191,6 @@ Add EsLint Prettier plugin to _.eslintrc.json_ file...
 
 ```json
 {
-  // ...
-  "extends": [
-    // ...
-    "prettier"
-  ]
-  // ...
+  "extends": ["prettier"]
 }
 ```
