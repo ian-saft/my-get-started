@@ -4,13 +4,13 @@
 
 Get Started a NodeJS Project with Yarn, Typescript, EditorConfig, Eslint and Prettier
 
-<img width="64px" style="margin-right: 4px" src="./../icons/Yarn.png" alt="" />
-<img width="64px" style="margin: 0 4px" src="./../icons/Typescript.png" alt="" />
-<img width="64px" style="margin: 0 4px" src="./../icons/EditorConfig.png" alt="" />
-<img width="76px" style="margin: 0 4px" src="./../icons/EsLint.png" alt="" />
-<img width="64px" style="margin-left: 4px" src="./../icons/Prettier.png" alt="" />
-
-<br/>
+<div>
+  <img width="64px" style="margin-right: 4px" src="./../icons/Yarn.png" alt="" />
+  <img width="64px" style="margin: 0 4px" src="./../icons/Typescript.png" alt="" />
+  <img width="64px" style="margin: 0 4px" src="./../icons/EditorConfig.png" alt="" />
+  <img width="76px" style="margin: 0 4px" src="./../icons/EsLint.png" alt="" />
+  <img width="64px" style="margin-left: 4px" src="./../icons/Prettier.png" alt="" />
+</div>
 
 <img style="width:64px" src="./../icons/yarn-icon.png" alt="" />
 
@@ -32,8 +32,6 @@ yarn add -D eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin
 # Install Prettier and eslint plugin
 yarn add -D prettier eslint-config-prettier
 ```
-
-<br />
 
 <img style="width:64px" src="./../icons/ts-icon.png" alt="" />
 
@@ -74,8 +72,6 @@ Create scripts in _package.json_ file...
 }
 ```
 
-<br />
-
 <img style="width:96px;margin-left:-24px" src="./../icons/editorconfig-icon.png" alt="" />
 
 ## Configure EditorConfig
@@ -97,8 +93,6 @@ charset = utf-8
 trim_trailing_whitespace = true
 insert_final_newline = true
 ```
-
-<br />
 
 <img style="width:64px" src="./../icons/eslint-icon.png" alt="" />
 
@@ -146,8 +140,6 @@ build
 .editorconfig
 .prettierignore
 ```
-
-<br />
 
 <img style="width:64px;margin-left:-8px;" src="./../icons/prettier-icon.png" alt="" />
 
